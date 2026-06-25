@@ -1,0 +1,6 @@
+-- Catatan: file ini untuk dokumentasi sementara.
+-- Langkah manual saat memastikan skema DB:
+-- 1) SHOW TABLES;
+-- 2) DESCRIBE <nama_tabel>;
+-- 3) Cari tabel yang menyimpan sesi/riwayat, kemungkinan namanya: history, riwayat, sessions, konsultasi_log.
+
