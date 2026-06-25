@@ -1,0 +1,14 @@
+Panduan Sistem Pakar Jurusan
+Panduan Menjalankan Web Sistem Pakar Jurusan
+
+Prasyarat
+
+1.  Node.js terinstal.
+2.  XAMPP / Laragon (aktifkan modul MySQL).
+
+Langkah-langkah Menjalankan
+
+1.  Database: Buat database sistem_pakar_jurusan di phpMyAdmin, lalu import file sistem_pakar_jurusan.sql dari folder backend.
+2.  Backend: Buka terminal, masuk ke folder backend, ketik npm install, lalu jalankan dengan node server.js.
+3.  Frontend: Buka terminal baru, masuk ke folder frontend, ketik npm install, lalu jalankan dengan npm run dev.
+4.  Buka tautan lokal (biasanya http://localhost:5173) di browser.
