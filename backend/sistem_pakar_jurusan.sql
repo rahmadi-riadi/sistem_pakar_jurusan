@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Jun 25, 2026 at 04:54 AM
+-- Generation Time: Jun 25, 2026 at 12:30 PM
 -- Server version: 8.0.36
 -- PHP Version: 8.2.12
 
@@ -37,30 +37,39 @@ CREATE TABLE `indikator` (
 --
 
 INSERT INTO `indikator` (`id_indikator`, `pertanyaan`) VALUES
-(5, 'Apakah Anda memiliki minat yang kuat dalam mengembangkan perangkat lunak atau aplikasi ?'),
-(6, 'Apakah Anda tertarik merancang algoritma dan struktur data yang efisien?'),
-(7, 'Apakah Anda suka mengelola, menganalisis, dan mengoptimalkan basis data perusahaan?'),
-(8, 'Apakah Anda lebih menyukai integrasi antara teknologi komputer dan strategi proses bisnis?'),
-(9, 'Apakah Anda tertarik mempelajari fondasi teoretis ilmu komputer dan komputasi matematis?'),
-(10, 'Apakah Anda memiliki ketertarikan pada infrastruktur jaringan komputer dan administrasi server?'),
-(11, 'Apakah Anda peduli dengan keamanan siber (cybersecurity) dan perlindungan data sistem informasi?'),
-(12, 'Apakah Anda memiliki bakat dan minat yang tinggi dalam estetika visual, tata letak, dan desain grafis?'),
-(13, 'Apakah Anda suka merancang media komunikasi visual untuk keperluan periklanan atau branding?'),
-(14, 'Apakah Anda senang mengolah, membersihkan, dan menganalisis data berskala besar (big data)?'),
-(15, 'Apakah Anda memiliki kemampuan atau minat dalam pemodelan statistik dan machine learning?'),
-(16, 'Apakah Anda lebih tertarik pada metodologi manajemen proyek pengembangan perangkat lunak skala enterprise?'),
-(17, 'Apakah Anda tertarik pada implementasi operasional praktis sistem informasi di dalam organisasi atau perusahaan?'),
-(18, 'Faktanya saya suka merakit komponen perangkat keras komputer secara fisik.'),
-(19, 'Faktanya saya suka memasang dan mengonfigurasi jaringan kabel komputer (LAN/WAN).'),
-(20, 'Saya memiliki ketertarikan untuk melakukan instalasi sistem operasi dan perbaikan komputer secara langsung.'),
-(21, 'Faktanya saya suka menghitung, mengolah, dan memvalidasi sekumpulan data agar menjadi informasi terstruktur.'),
-(22, 'Saya tertarik merancang diagram alur (flowchart) logika dan pemodelan sistem basis data.'),
-(23, 'Saya lebih menyukai dunia perancangan tata letak visual, ilustrasi, dan periklanan media cetak/digital.'),
-(24, 'Saya suka membuat desain grafis berbasis vektor dan manipulasi gambar menggunakan aplikasi desain.'),
-(25, 'Faktanya saya menyukai tantangan dalam menemukan letak bug/kesalahan pada suatu program logika.'),
-(26, 'Saya lebih berminat pada urusan tata kelola IT, audit sistem, dan efisiensi operasional bisnis perusahaan.'),
-(27, 'Saya tertarik mempelajari cara kerja perangkat keras dan mikrokontroler (embedded system).'),
-(28, 'Saya suka merangkai konsep visual untuk pembuatan antarmuka pengguna (UI) dan pengalaman pengguna (UX) sebuah aplikasi.');
+(1, 'Saya suka memecahkan masalah menggunakan logika dan algoritma.'),
+(2, 'Saya suka mengoperasikan, membongkar, atau memodifikasi perangkat komputer.'),
+(3, 'Saya tertarik menganalisis data untuk mendukung keputusan bisnis.'),
+(4, 'Saya suka mengatur keuangan dan mencatat pengeluaran secara detail.'),
+(5, 'Saya suka berbicara, berdiskusi, atau berdebat di depan umum.'),
+(6, 'Saya suka menulis artikel, cerita, atau menyusun naskah.'),
+(7, 'Saya tertarik mempelajari struktur tata bahasa dan literatur asing.'),
+(8, 'Saya suka memimpin tim dan merencanakan strategi kegiatan.'),
+(9, 'Saya tertarik mengamati tren pasar dan kondisi ekonomi secara makro.'),
+(10, 'Saya suka melakukan negosiasi atau kegiatan promosi dan pemasaran.'),
+(11, 'Saya tertarik membaca dan menganalisis undang-undang atau peraturan.'),
+(12, 'Saya suka mengamati dan menganalisis isu-isu politik atau kebijakan publik.'),
+(13, 'Saya peduli pada isu-isu global dan hubungan antar negara.'),
+(14, 'Saya suka mempelajari fungsi organ tubuh manusia dan kesehatan.'),
+(15, 'Saya memiliki rasa empati yang tinggi dan suka merawat orang yang sakit.'),
+(16, 'Saya tertarik bereksperimen dengan bahan kimia di laboratorium.'),
+(17, 'Saya menjadi tempat curhat yang baik dan suka mendengarkan masalah orang lain.'),
+(18, 'Saya tertarik mengamati perilaku, sifat, dan karakter manusia.'),
+(19, 'Saya suka mengajar, menjelaskan materi, dan berbagi ilmu dengan orang lain.'),
+(20, 'Saya memiliki kesabaran ekstra saat berinteraksi dengan anak-anak.'),
+(21, 'Saya suka menghitung dan bermain dengan angka atau rumus matematika.'),
+(22, 'Saya suka merancang dan menggambar sketsa struktur bangunan.'),
+(23, 'Saya tertarik mempelajari bagaimana sebuah mesin atau alat mekanis bekerja.'),
+(24, 'Saya suka mencari cara agar suatu pekerjaan atau produksi menjadi lebih cepat (efisien).'),
+(25, 'Saya suka menggambar ilustrasi, melukis, atau membuat desain grafis digital.'),
+(26, 'Saya tertarik pada dunia fotografi, videografi, atau pembuatan animasi.'),
+(27, 'Saya suka beraktivitas di alam terbuka dan peduli pada lingkungan hidup.'),
+(28, 'Saya tertarik mempelajari cara bercocok tanam atau beternak yang modern.'),
+(29, 'Saya suka memikirkan cara memasarkan produk olahan hasil bumi/pertanian.'),
+(30, 'Saya suka memperhatikan estetika dan tampilan visual dari sebuah informasi.'),
+(31, 'Saya mampu membuat argumen hukum berdasarkan fakta dan logika.'),
+(32, 'Saya senang membaca literatur medis dan metode penyembuhan penyakit.'),
+(33, 'Saya suka merancang antarmuka (UI/UX) atau sistem alur digital.');
 
 -- --------------------------------------------------------
 
@@ -79,14 +88,26 @@ CREATE TABLE `jurusan` (
 --
 
 INSERT INTO `jurusan` (`id_jurusan`, `nama_jurusan`, `deskripsi`) VALUES
-(5, 'Teknik Informatika', 'Fokus pada pengembangan perangkat lunak, algoritma, dan pemrograman komputer'),
-(6, 'Sistem Informasi', 'Fokus pada manajemen sistem, basis data, dan integrasi bisnis dengan teknologi.'),
-(7, 'Ilmu Komputer', 'Fokus pada fondasi teoritis komputasi dan pengolahan data.'),
-(8, 'Teknologi Informasi', 'Fokus pada infrastruktur IT, jaringan, dan keamanan siber.'),
-(9, 'Desain Komunikasi Visual', 'Fokus pada estetika visual, periklanan, dan media desain grafis.'),
-(10, 'Sains Data', 'Fokus pada analisis data berskala besar, statistik, dan machine learning.'),
-(11, 'Kejuruteraan Perangkat Lunak', 'Fokus pada metodologi pembangunan dan rekayasa sistem perangkat lunak skala besar.'),
-(12, 'Manajemen Informatika', 'Fokus pada penerapan praktis operasional sistem informasi dalam perusahaan.');
+(1, 'Teknik Informatika', 'Fokus pada rekayasa perangkat lunak, komputasi, dan pengembangan sistem algoritma.'),
+(2, 'Sistem Informasi', 'Menjembatani teknologi informasi dengan kebutuhan proses bisnis dan organisasi.'),
+(3, 'Ilmu Komunikasi', 'Mempelajari cara penyampaian pesan yang efektif, media massa, dan public relations.'),
+(4, 'Manajemen', 'Berfokus pada pengelolaan tim, operasional organisasi, dan strategi bisnis.'),
+(5, 'Akuntansi', 'Mempelajari sistem pencatatan, audit, dan pelaporan keuangan perusahaan.'),
+(6, 'Hukum', 'Mendalami sistem perundang-undangan, tata tertib, dan analisis penyelesaian kasus hukum.'),
+(7, 'Psikologi', 'Mempelajari perilaku, kepribadian, dan proses mental manusia.'),
+(8, 'Kedokteran', 'Mempelajari ilmu anatomi tubuh manusia, diagnosis penyakit, dan tindakan medis.'),
+(9, 'Farmasi', 'Fokus pada peracikan, pengembangan, dan penelitian obat-obatan serta bahan kimia medis.'),
+(10, 'Teknik Sipil', 'Mempelajari perancangan, konstruksi, dan pemeliharaan infrastruktur serta bangunan.'),
+(11, 'Teknik Industri', 'Fokus pada optimalisasi dan efisiensi sistem produksi yang melibatkan manusia, mesin, dan material.'),
+(12, 'Hubungan Internasional', 'Mempelajari dinamika politik global, diplomasi, dan interaksi antar negara.'),
+(13, 'Sastra Inggris', 'Mendalami linguistik, budaya, dan analisis literatur berbahasa Inggris.'),
+(14, 'Desain Komunikasi Visual', 'Fokus pada pemecahan masalah komunikasi melalui karya seni, desain grafis, dan multimedia.'),
+(15, 'Ilmu Pemerintahan', 'Mempelajari sistem tata kelola negara, dinamika politik lokal, dan penyusunan kebijakan publik.'),
+(16, 'Matematika', 'Mendalami teori bilangan, logika deduktif, dan pemodelan analitis.'),
+(17, 'PGSD', 'Pendidikan Guru Sekolah Dasar, fokus pada metode pengajaran untuk anak usia dini dan dasar.'),
+(18, 'Ilmu Keperawatan', 'Berfokus pada pemulihan kesehatan, perawatan fisik, dan dukungan psikologis pasien.'),
+(19, 'Ekonomi Pembangunan', 'Mempelajari isu ekonomi makro, kesejahteraan masyarakat, dan kebijakan publik.'),
+(20, 'Agribisnis', 'Menggabungkan ilmu pertanian dengan strategi bisnis dan komersialisasi hasil bumi.');
 
 -- --------------------------------------------------------
 
@@ -105,31 +126,66 @@ CREATE TABLE `rules` (
 --
 
 INSERT INTO `rules` (`id_rule`, `id_jurusan`, `id_indikator`) VALUES
-(1, 6, 5),
-(2, 5, 6),
-(3, 5, 7),
-(4, 6, 8),
-(5, 6, 9),
-(6, 6, 10),
-(7, 7, 11),
-(8, 7, 12),
-(9, 7, 13),
-(10, 7, 14),
-(11, 8, 15),
-(12, 8, 16),
-(13, 9, 17),
-(14, 9, 18),
-(15, 9, 19),
-(16, 10, 20),
-(17, 10, 21),
-(18, 10, 22),
-(19, 11, 23),
-(20, 11, 24),
-(21, 11, 25),
-(22, 12, 26),
-(23, 12, 27),
-(24, 11, 28),
-(25, 5, 19);
+(1, 1, 1),
+(2, 1, 2),
+(3, 1, 21),
+(4, 1, 33),
+(5, 2, 1),
+(6, 2, 3),
+(7, 2, 24),
+(8, 2, 33),
+(9, 3, 5),
+(10, 3, 6),
+(11, 3, 10),
+(12, 4, 8),
+(13, 4, 10),
+(14, 4, 24),
+(15, 5, 4),
+(16, 5, 21),
+(17, 6, 5),
+(18, 6, 11),
+(19, 6, 31),
+(20, 7, 17),
+(21, 7, 18),
+(22, 7, 15),
+(23, 8, 14),
+(24, 8, 15),
+(25, 8, 32),
+(26, 9, 14),
+(27, 9, 16),
+(28, 9, 32),
+(29, 10, 21),
+(30, 10, 22),
+(31, 10, 27),
+(32, 11, 3),
+(33, 11, 21),
+(34, 11, 23),
+(35, 11, 24),
+(36, 12, 5),
+(37, 12, 12),
+(38, 12, 13),
+(39, 13, 6),
+(40, 13, 7),
+(41, 14, 25),
+(42, 14, 26),
+(43, 14, 30),
+(44, 15, 8),
+(45, 15, 11),
+(46, 15, 12),
+(47, 16, 1),
+(48, 16, 21),
+(49, 17, 19),
+(50, 17, 20),
+(51, 18, 14),
+(52, 18, 15),
+(53, 18, 17),
+(54, 19, 9),
+(55, 19, 12),
+(56, 19, 21),
+(57, 20, 10),
+(58, 20, 27),
+(59, 20, 28),
+(60, 20, 29);
 
 -- --------------------------------------------------------
 
@@ -166,27 +222,6 @@ CREATE TABLE `working_memory` (
   `nilai_kecocokan` int DEFAULT '0'
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
 
---
--- Dumping data for table `working_memory`
---
-
-INSERT INTO `working_memory` (`id_wm`, `username`, `jurusan_terpilih`, `created_at`, `nilai_kecocokan`) VALUES
-(1, 'qwdsccvbbb', NULL, '2026-06-24 23:54:29', 0),
-(2, 'qwdsccvbbb', NULL, '2026-06-24 23:54:47', 0),
-(3, 'qwdsccvbbb', NULL, '2026-06-24 23:54:56', 0),
-(4, 'asd', NULL, '2026-06-25 00:47:58', 0),
-(5, 'asd', NULL, '2026-06-25 00:48:08', 0),
-(6, 'dfg', 6, '2026-06-25 01:00:29', 36),
-(7, 'coba', NULL, '2026-06-25 01:05:32', 0),
-(8, 'klo', 5, '2026-06-25 01:30:41', 30),
-(9, 'zxc', NULL, '2026-06-25 01:46:09', 0),
-(10, 'zxc', NULL, '2026-06-25 01:46:36', 0),
-(11, 'zxmnb', NULL, '2026-06-25 01:47:23', 0),
-(12, 'ggggg', NULL, '2026-06-25 01:50:58', 0),
-(13, 'RTY', NULL, '2026-06-25 02:09:32', 0),
-(14, '11111vv', NULL, '2026-06-25 02:21:06', 0),
-(15, 'vvvvv', 6, '2026-06-25 02:27:05', 33);
-
 -- --------------------------------------------------------
 
 --
@@ -199,119 +234,6 @@ CREATE TABLE `working_memory_detail` (
   `id_indikator` int NOT NULL,
   `jawaban` varchar(225) CHARACTER SET utf8mb4 COLLATE utf8mb4_0900_ai_ci NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
-
---
--- Dumping data for table `working_memory_detail`
---
-
-INSERT INTO `working_memory_detail` (`id_detail`, `id_wm`, `id_indikator`, `jawaban`) VALUES
-(1, 7, 7, 'Apakah Anda suka mengelola, menganalisis, dan mengoptimalkan basis data perusahaan?'),
-(2, 7, 5, 'Apakah Anda memiliki minat yang kuat dalam mengembangkan perangkat lunak atau aplikasi ?'),
-(3, 7, 9, 'Apakah Anda tertarik mempelajari fondasi teoretis ilmu komputer dan komputasi matematis?'),
-(4, 7, 10, 'Apakah Anda memiliki ketertarikan pada infrastruktur jaringan komputer dan administrasi server?'),
-(5, 7, 11, 'Apakah Anda peduli dengan keamanan siber (cybersecurity) dan perlindungan data sistem informasi?'),
-(6, 7, 14, 'Apakah Anda senang mengolah, membersihkan, dan menganalisis data berskala besar (big data)?'),
-(7, 7, 15, 'Apakah Anda memiliki kemampuan atau minat dalam pemodelan statistik dan machine learning?'),
-(8, 7, 19, 'Faktanya saya suka memasang dan mengonfigurasi jaringan kabel komputer (LAN/WAN).'),
-(9, 7, 16, 'Apakah Anda lebih tertarik pada metodologi manajemen proyek pengembangan perangkat lunak skala enterprise?'),
-(10, 7, 22, 'Saya tertarik merancang diagram alur (flowchart) logika dan pemodelan sistem basis data.'),
-(11, 7, 24, 'Saya suka membuat desain grafis berbasis vektor dan manipulasi gambar menggunakan aplikasi desain.'),
-(12, 8, 6, 'Apakah Anda tertarik merancang algoritma dan struktur data yang efisien?'),
-(13, 8, 7, 'Apakah Anda suka mengelola, menganalisis, dan mengoptimalkan basis data perusahaan?'),
-(14, 8, 9, 'Apakah Anda tertarik mempelajari fondasi teoretis ilmu komputer dan komputasi matematis?'),
-(15, 8, 10, 'Apakah Anda memiliki ketertarikan pada infrastruktur jaringan komputer dan administrasi server?'),
-(16, 8, 12, 'Apakah Anda memiliki bakat dan minat yang tinggi dalam estetika visual, tata letak, dan desain grafis?'),
-(17, 8, 14, 'Apakah Anda senang mengolah, membersihkan, dan menganalisis data berskala besar (big data)?'),
-(18, 8, 17, 'Apakah Anda tertarik pada implementasi operasional praktis sistem informasi di dalam organisasi atau perusahaan?'),
-(19, 8, 19, 'Faktanya saya suka memasang dan mengonfigurasi jaringan kabel komputer (LAN/WAN).'),
-(20, 8, 24, 'Saya suka membuat desain grafis berbasis vektor dan manipulasi gambar menggunakan aplikasi desain.'),
-(21, 8, 23, 'Saya lebih menyukai dunia perancangan tata letak visual, ilustrasi, dan periklanan media cetak/digital.'),
-(22, 9, 5, 'Apakah Anda memiliki minat yang kuat dalam mengembangkan perangkat lunak atau aplikasi ?'),
-(23, 9, 6, 'Apakah Anda tertarik merancang algoritma dan struktur data yang efisien?'),
-(24, 9, 7, 'Apakah Anda suka mengelola, menganalisis, dan mengoptimalkan basis data perusahaan?'),
-(25, 9, 8, 'Apakah Anda lebih menyukai integrasi antara teknologi komputer dan strategi proses bisnis?'),
-(26, 9, 10, 'Apakah Anda memiliki ketertarikan pada infrastruktur jaringan komputer dan administrasi server?'),
-(27, 9, 13, 'Apakah Anda suka merancang media komunikasi visual untuk keperluan periklanan atau branding?'),
-(28, 9, 14, 'Apakah Anda senang mengolah, membersihkan, dan menganalisis data berskala besar (big data)?'),
-(29, 9, 17, 'Apakah Anda tertarik pada implementasi operasional praktis sistem informasi di dalam organisasi atau perusahaan?'),
-(30, 9, 16, 'Apakah Anda lebih tertarik pada metodologi manajemen proyek pengembangan perangkat lunak skala enterprise?'),
-(31, 9, 15, 'Apakah Anda memiliki kemampuan atau minat dalam pemodelan statistik dan machine learning?'),
-(32, 9, 22, 'Saya tertarik merancang diagram alur (flowchart) logika dan pemodelan sistem basis data.'),
-(33, 9, 21, 'Faktanya saya suka menghitung, mengolah, dan memvalidasi sekumpulan data agar menjadi informasi terstruktur.'),
-(34, 9, 20, 'Saya memiliki ketertarikan untuk melakukan instalasi sistem operasi dan perbaikan komputer secara langsung.'),
-(35, 10, 8, 'Apakah Anda lebih menyukai integrasi antara teknologi komputer dan strategi proses bisnis?'),
-(36, 10, 7, 'Apakah Anda suka mengelola, menganalisis, dan mengoptimalkan basis data perusahaan?'),
-(37, 10, 9, 'Apakah Anda tertarik mempelajari fondasi teoretis ilmu komputer dan komputasi matematis?'),
-(38, 10, 14, 'Apakah Anda senang mengolah, membersihkan, dan menganalisis data berskala besar (big data)?'),
-(39, 10, 12, 'Apakah Anda memiliki bakat dan minat yang tinggi dalam estetika visual, tata letak, dan desain grafis?'),
-(40, 10, 11, 'Apakah Anda peduli dengan keamanan siber (cybersecurity) dan perlindungan data sistem informasi?'),
-(41, 10, 19, 'Faktanya saya suka memasang dan mengonfigurasi jaringan kabel komputer (LAN/WAN).'),
-(42, 10, 18, 'Faktanya saya suka merakit komponen perangkat keras komputer secara fisik.'),
-(43, 10, 16, 'Apakah Anda lebih tertarik pada metodologi manajemen proyek pengembangan perangkat lunak skala enterprise?'),
-(44, 10, 21, 'Faktanya saya suka menghitung, mengolah, dan memvalidasi sekumpulan data agar menjadi informasi terstruktur.'),
-(45, 10, 22, 'Saya tertarik merancang diagram alur (flowchart) logika dan pemodelan sistem basis data.'),
-(46, 10, 20, 'Saya memiliki ketertarikan untuk melakukan instalasi sistem operasi dan perbaikan komputer secara langsung.'),
-(47, 11, 5, 'Apakah Anda memiliki minat yang kuat dalam mengembangkan perangkat lunak atau aplikasi ?'),
-(48, 11, 7, 'Apakah Anda suka mengelola, menganalisis, dan mengoptimalkan basis data perusahaan?'),
-(49, 11, 9, 'Apakah Anda tertarik mempelajari fondasi teoretis ilmu komputer dan komputasi matematis?'),
-(50, 11, 10, 'Apakah Anda memiliki ketertarikan pada infrastruktur jaringan komputer dan administrasi server?'),
-(51, 11, 11, 'Apakah Anda peduli dengan keamanan siber (cybersecurity) dan perlindungan data sistem informasi?'),
-(52, 11, 14, 'Apakah Anda senang mengolah, membersihkan, dan menganalisis data berskala besar (big data)?'),
-(53, 11, 15, 'Apakah Anda memiliki kemampuan atau minat dalam pemodelan statistik dan machine learning?'),
-(54, 11, 19, 'Faktanya saya suka memasang dan mengonfigurasi jaringan kabel komputer (LAN/WAN).'),
-(55, 11, 18, 'Faktanya saya suka merakit komponen perangkat keras komputer secara fisik.'),
-(56, 11, 22, 'Saya tertarik merancang diagram alur (flowchart) logika dan pemodelan sistem basis data.'),
-(57, 11, 21, 'Faktanya saya suka menghitung, mengolah, dan memvalidasi sekumpulan data agar menjadi informasi terstruktur.'),
-(58, 11, 20, 'Saya memiliki ketertarikan untuk melakukan instalasi sistem operasi dan perbaikan komputer secara langsung.'),
-(59, 12, 8, 'Apakah Anda lebih menyukai integrasi antara teknologi komputer dan strategi proses bisnis?'),
-(60, 12, 9, 'Apakah Anda tertarik mempelajari fondasi teoretis ilmu komputer dan komputasi matematis?'),
-(61, 12, 6, 'Apakah Anda tertarik merancang algoritma dan struktur data yang efisien?'),
-(62, 12, 11, 'Apakah Anda peduli dengan keamanan siber (cybersecurity) dan perlindungan data sistem informasi?'),
-(63, 12, 13, 'Apakah Anda suka merancang media komunikasi visual untuk keperluan periklanan atau branding?'),
-(64, 12, 14, 'Apakah Anda senang mengolah, membersihkan, dan menganalisis data berskala besar (big data)?'),
-(65, 12, 16, 'Apakah Anda lebih tertarik pada metodologi manajemen proyek pengembangan perangkat lunak skala enterprise?'),
-(66, 12, 17, 'Apakah Anda tertarik pada implementasi operasional praktis sistem informasi di dalam organisasi atau perusahaan?'),
-(67, 12, 18, 'Faktanya saya suka merakit komponen perangkat keras komputer secara fisik.'),
-(68, 12, 19, 'Faktanya saya suka memasang dan mengonfigurasi jaringan kabel komputer (LAN/WAN).'),
-(69, 12, 21, 'Faktanya saya suka menghitung, mengolah, dan memvalidasi sekumpulan data agar menjadi informasi terstruktur.'),
-(70, 12, 20, 'Saya memiliki ketertarikan untuk melakukan instalasi sistem operasi dan perbaikan komputer secara langsung.'),
-(71, 13, 5, 'Apakah Anda memiliki minat yang kuat dalam mengembangkan perangkat lunak atau aplikasi ?'),
-(72, 13, 6, 'Apakah Anda tertarik merancang algoritma dan struktur data yang efisien?'),
-(73, 13, 7, 'Apakah Anda suka mengelola, menganalisis, dan mengoptimalkan basis data perusahaan?'),
-(74, 13, 11, 'Apakah Anda peduli dengan keamanan siber (cybersecurity) dan perlindungan data sistem informasi?'),
-(75, 13, 10, 'Apakah Anda memiliki ketertarikan pada infrastruktur jaringan komputer dan administrasi server?'),
-(76, 13, 14, 'Apakah Anda senang mengolah, membersihkan, dan menganalisis data berskala besar (big data)?'),
-(77, 13, 16, 'Apakah Anda lebih tertarik pada metodologi manajemen proyek pengembangan perangkat lunak skala enterprise?'),
-(78, 13, 19, 'Faktanya saya suka memasang dan mengonfigurasi jaringan kabel komputer (LAN/WAN).'),
-(79, 13, 15, 'Apakah Anda memiliki kemampuan atau minat dalam pemodelan statistik dan machine learning?'),
-(80, 13, 24, 'Saya suka membuat desain grafis berbasis vektor dan manipulasi gambar menggunakan aplikasi desain.'),
-(81, 13, 22, 'Saya tertarik merancang diagram alur (flowchart) logika dan pemodelan sistem basis data.'),
-(82, 13, 20, 'Saya memiliki ketertarikan untuk melakukan instalasi sistem operasi dan perbaikan komputer secara langsung.'),
-(83, 14, 5, 'Apakah Anda memiliki minat yang kuat dalam mengembangkan perangkat lunak atau aplikasi ?'),
-(84, 14, 6, 'Apakah Anda tertarik merancang algoritma dan struktur data yang efisien?'),
-(85, 14, 7, 'Apakah Anda suka mengelola, menganalisis, dan mengoptimalkan basis data perusahaan?'),
-(86, 14, 9, 'Apakah Anda tertarik mempelajari fondasi teoretis ilmu komputer dan komputasi matematis?'),
-(87, 14, 10, 'Apakah Anda memiliki ketertarikan pada infrastruktur jaringan komputer dan administrasi server?'),
-(88, 14, 11, 'Apakah Anda peduli dengan keamanan siber (cybersecurity) dan perlindungan data sistem informasi?'),
-(89, 14, 12, 'Apakah Anda memiliki bakat dan minat yang tinggi dalam estetika visual, tata letak, dan desain grafis?'),
-(90, 14, 15, 'Apakah Anda memiliki kemampuan atau minat dalam pemodelan statistik dan machine learning?'),
-(91, 14, 19, 'Faktanya saya suka memasang dan mengonfigurasi jaringan kabel komputer (LAN/WAN).'),
-(92, 14, 18, 'Faktanya saya suka merakit komponen perangkat keras komputer secara fisik.'),
-(93, 14, 16, 'Apakah Anda lebih tertarik pada metodologi manajemen proyek pengembangan perangkat lunak skala enterprise?'),
-(94, 14, 20, 'Saya memiliki ketertarikan untuk melakukan instalasi sistem operasi dan perbaikan komputer secara langsung.'),
-(95, 14, 21, 'Faktanya saya suka menghitung, mengolah, dan memvalidasi sekumpulan data agar menjadi informasi terstruktur.'),
-(96, 15, 5, 'Apakah Anda memiliki minat yang kuat dalam mengembangkan perangkat lunak atau aplikasi ?'),
-(97, 15, 8, 'Apakah Anda lebih menyukai integrasi antara teknologi komputer dan strategi proses bisnis?'),
-(98, 15, 9, 'Apakah Anda tertarik mempelajari fondasi teoretis ilmu komputer dan komputasi matematis?'),
-(99, 15, 10, 'Apakah Anda memiliki ketertarikan pada infrastruktur jaringan komputer dan administrasi server?'),
-(100, 15, 14, 'Apakah Anda senang mengolah, membersihkan, dan menganalisis data berskala besar (big data)?'),
-(101, 15, 11, 'Apakah Anda peduli dengan keamanan siber (cybersecurity) dan perlindungan data sistem informasi?'),
-(102, 15, 15, 'Apakah Anda memiliki kemampuan atau minat dalam pemodelan statistik dan machine learning?'),
-(103, 15, 19, 'Faktanya saya suka memasang dan mengonfigurasi jaringan kabel komputer (LAN/WAN).'),
-(104, 15, 17, 'Apakah Anda tertarik pada implementasi operasional praktis sistem informasi di dalam organisasi atau perusahaan?'),
-(105, 15, 21, 'Faktanya saya suka menghitung, mengolah, dan memvalidasi sekumpulan data agar menjadi informasi terstruktur.'),
-(106, 15, 20, 'Saya memiliki ketertarikan untuk melakukan instalasi sistem operasi dan perbaikan komputer secara langsung.'),
-(107, 15, 24, 'Saya suka membuat desain grafis berbasis vektor dan manipulasi gambar menggunakan aplikasi desain.');
 
 --
 -- Indexes for dumped tables
@@ -367,19 +289,19 @@ ALTER TABLE `working_memory_detail`
 -- AUTO_INCREMENT for table `indikator`
 --
 ALTER TABLE `indikator`
-  MODIFY `id_indikator` int NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=29;
+  MODIFY `id_indikator` int NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=34;
 
 --
 -- AUTO_INCREMENT for table `jurusan`
 --
 ALTER TABLE `jurusan`
-  MODIFY `id_jurusan` int NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=13;
+  MODIFY `id_jurusan` int NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=21;
 
 --
 -- AUTO_INCREMENT for table `rules`
 --
 ALTER TABLE `rules`
-  MODIFY `id_rule` int NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=26;
+  MODIFY `id_rule` int NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=61;
 
 --
 -- AUTO_INCREMENT for table `users`
@@ -391,13 +313,13 @@ ALTER TABLE `users`
 -- AUTO_INCREMENT for table `working_memory`
 --
 ALTER TABLE `working_memory`
-  MODIFY `id_wm` int NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=16;
+  MODIFY `id_wm` int NOT NULL AUTO_INCREMENT;
 
 --
 -- AUTO_INCREMENT for table `working_memory_detail`
 --
 ALTER TABLE `working_memory_detail`
-  MODIFY `id_detail` int NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=108;
+  MODIFY `id_detail` int NOT NULL AUTO_INCREMENT;
 
 --
 -- Constraints for dumped tables
